@@ -124,3 +124,20 @@ endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set mouse=a
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" COPY & PASTE Setting
+"sudo apt-get update && sudo apt-get install vim vim-scripts vim-doc vim-latexsuite vim-gui-common
+" CTRL+SHIFT+C/V "ubuntu setting
+""""""""source $VIMRUNTIME/mswin.vim
+"if has("clipboard")
+"    set clipboard^=unnamed,unnamedplus
+"endif
+"""""set clipboard=unnamed
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Compile Setting
+map <F2> :w!<CR>
+map <F9> :! gcc % -o %<<CR>
+map <F10> :! ./%<<CR>
+
